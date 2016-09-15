@@ -1,6 +1,6 @@
 __author__ = 'student'
 import turtle
-for i in range (50,500,50):
+for i in range (50,550,50):
     turtle.shape('turtle')
     turtle.pendown()
     turtle.forward(i)
