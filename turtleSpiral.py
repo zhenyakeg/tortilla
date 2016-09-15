@@ -1,5 +1,11 @@
 __author__ = 'student'
 import turtle
-for i in range (1,1000):
-    turtle.left(5)
-    turtle.forward(1+i/50)
+
+r1 = 20
+dr = 5
+n = 10
+N = 20
+
+for i in range (r1,r1+n*dr,dr):
+    turtle.left()
+    turtle.forward(i)
